@@ -1,0 +1,36 @@
+.hero {
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: auto;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.9s ease;
+}
+
+.hero-content.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hero h1 {
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.gujarati {
+  font-size: 17px;
+  color: #374151;
+  font-weight: 500;
+  margin-top: 10px;
+}

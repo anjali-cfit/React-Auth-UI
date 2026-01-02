@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Auth.css";
+import "../styles/Login.css";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
@@ -11,7 +11,7 @@ interface ApiResponse {
   user?: any;
 }
 
-const Auth: React.FC = () => {
+const Login: React.FC = () => {
   const [mode, setMode] = useState<Mode>("login");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -246,4 +246,4 @@ const Auth: React.FC = () => {
   );
 };
 
-export default Auth;
+export default Login;
