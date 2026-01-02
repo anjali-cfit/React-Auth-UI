@@ -76,7 +76,7 @@ const Login: React.FC = () => {
         setPassword("");
 
         if(mode === "login"){
-          navigate("/productList");
+          navigate("/");
         }
      
         // If signup was successful, switch to login

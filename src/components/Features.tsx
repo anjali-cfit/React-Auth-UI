@@ -1,3 +1,11 @@
+import {
+  FaSchool,
+  FaRupeeSign,
+  FaStar,
+  FaCreditCard,
+} from "react-icons/fa";
+import "../styles/Footer.css";
+
 export default function Features() {
   return (
     <section className="features" id="features">
@@ -5,7 +13,7 @@ export default function Features() {
 
       <div className="feature-grid">
         <div className="feature-card">
-          🎒
+          <FaSchool className="footer-icon" />
           <h3>Quality Products Kids Love</h3>
           <p>
             Carefully selected toys, stationery, and essentials that children
@@ -14,7 +22,7 @@ export default function Features() {
         </div>
 
         <div className="feature-card">
-          💰
+          <FaRupeeSign className="footer-icon" />
           <h3>Affordable & Fair Pricing</h3>
           <p>
             Get quality products at reasonable prices, with special seasonal
@@ -23,7 +31,7 @@ export default function Features() {
         </div>
 
         <div className="feature-card">
-          ⭐
+          <FaStar className="footer-icon" />
           <h3>Trusted by Parents</h3>
           <p>
             Parents choose us for safe, useful, and reliable products for their
@@ -32,7 +40,8 @@ export default function Features() {
         </div>
 
         <div className="feature-card">
-          💳 <h3>Online & Offline Payments</h3>
+          <FaCreditCard className="footer-icon" />
+          <h3>Online & Offline Payments</h3>
           <p>Paytm, Cash, and more.</p>
         </div>
       </div>

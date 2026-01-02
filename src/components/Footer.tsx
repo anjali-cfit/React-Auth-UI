@@ -1,9 +1,31 @@
+import { FaMapMarkerAlt, FaPhoneAlt, FaCopyright } from "react-icons/fa";
+import "../styles/Footer.css";
+
 export default function Footer() {
   return (
     <footer className="footer">
-      <p>📍 D - 34, Pushkar hill 1, Odhav - Ahmedabad, Gujarat</p>
-      <p>📞 +91 9974143109</p>
-      <p>© 2026 Kabira General store. All rights reserved.</p>
+      <div className="footer-item">
+        <FaMapMarkerAlt className="footer-icon" />
+            <a
+                href="https://maps.app.goo.gl/jtj9v9HoTVmTchuJ7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-link"
+            >
+                D - 34, Pushkar Hill 1, Odhav, Ahmedabad, Gujarat
+            </a>
+        </div>
+
+
+      <div className="footer-item">
+        <FaPhoneAlt className="footer-icon" />
+        <span>+91 99741 43109</span>
+      </div>
+
+      <div className="footer-item">
+        <FaCopyright className="footer-icon" />
+        <span>2026 Kabir General Store. All rights reserved.</span>
+      </div>
     </footer>
   );
 }
