@@ -16,12 +16,6 @@ export default function Footer() {
             </a>
         </div>
 
-
-      <div className="footer-item">
-        <FaPhoneAlt className="footer-icon" />
-        <span>+91 99741 43109</span>
-      </div>
-
       <div className="footer-item">
         <FaWhatsapp className="footer-icon" />
         <a
@@ -30,7 +24,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           className="footer-link"
         >
-          Message us on WhatsApp
+          +91 99741 43109
         </a>
       </div>
 
