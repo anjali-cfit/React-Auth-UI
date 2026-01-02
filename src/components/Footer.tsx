@@ -1,4 +1,4 @@
-import { FaMapMarkerAlt, FaPhoneAlt, FaCopyright } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhoneAlt, FaCopyright, FaWhatsapp } from "react-icons/fa";
 import "../styles/Footer.css";
 
 export default function Footer() {
@@ -20,6 +20,18 @@ export default function Footer() {
       <div className="footer-item">
         <FaPhoneAlt className="footer-icon" />
         <span>+91 99741 43109</span>
+      </div>
+
+      <div className="footer-item">
+        <FaWhatsapp className="footer-icon" />
+        <a
+          href="https://wa.me/919974143109"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-link"
+        >
+          Message us on WhatsApp
+        </a>
       </div>
 
       <div className="footer-item">
