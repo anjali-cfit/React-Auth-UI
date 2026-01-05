@@ -74,8 +74,8 @@ const Login: React.FC = () => {
         setName("");
         setEmail("");
         setPassword("");
-
         if(mode === "login"){
+          localStorage.setItem("user", JSON.stringify(data.user));
           navigate("/");
         }
      
