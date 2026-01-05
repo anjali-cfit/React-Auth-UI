@@ -34,6 +34,7 @@ body {
   font-size: 24px;
   font-weight: 700;
   color: #ff5a7a;
+  text-decoration: none;
 }
 
 .nav a {
@@ -44,7 +45,31 @@ body {
 
 .auth-actions {
   display: flex;
+  align-items: center;
   gap: 14px;
+}
+
+.dashboard-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: linear-gradient(to right, #ff4b6e, #ff6a88);
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.dashboard-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 90, 122, 0.4);
+}
+
+.dashboard-icon {
+  font-size: 16px;
 }
 
 .signin {
@@ -59,6 +84,57 @@ body {
   padding: 10px 20px;
   border-radius: 999px;
   text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 90, 122, 0.4);
+}
+
+.cta.secondary {
+  background: transparent;
+  color: #ff5a7a;
+  border: 1px solid #ff5a7a;
+}
+
+.cta.secondary:hover {
+  background: rgba(255, 90, 122, 0.1);
+  transform: none;
+  box-shadow: none;
+}
+
+/* Nav Menu */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #555;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  background: #f5f5f5;
+  color: #ff5a7a;
+}
+
+.nav-link.active {
+  background: rgba(255, 90, 122, 0.1);
+  color: #ff5a7a;
+}
+
+.nav-icon {
+  font-size: 16px;
 }
 
 /* Hero */

@@ -1,4 +1,4 @@
-import { FaMapMarkerAlt, FaPhoneAlt, FaCopyright, FaWhatsapp } from "react-icons/fa";
+import { FaMapMarkerAlt, FaCopyright, FaWhatsapp } from "react-icons/fa";
 import "../styles/Footer.css";
 
 export default function Footer() {
